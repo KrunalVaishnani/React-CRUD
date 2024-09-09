@@ -18,7 +18,10 @@ export function GetAll() {
       <>
         <div
           className="card col-md-2"
-          style={{ width: "10rem" }}
+          style={{
+            width: "10rem",
+            margin: "20px", // added margin to space out cards
+          }}
           key={ele.FacultyId}
         >
           <img
